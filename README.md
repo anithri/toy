@@ -1,24 +1,26 @@
 # Toy
 
-TODO: Write a gem description
+Toy is a tool for irb and other REPL.  It provides a simple, intuitive interface for generating random values and for
+generating arrays and hashes filled with elements.
 
 ## Installation
 
-Add this line to your application's Gemfile:
+Install it as:
 
-    gem 'toy'
-
-And then execute:
-
-    $ bundle
-
-Or install it yourself as:
+TODO: edit this to reflect final gem name.
 
     $ gem install toy
 
-## Usage
+Then add to your .irbrc
 
-TODO: Write usage instructions here
+   ```require 'toy'```
+
+## Usage
+```ruby
+
+
+
+```
 
 ## Contributing
 

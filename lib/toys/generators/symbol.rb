@@ -60,6 +60,6 @@ module Toys
   end
 end
 Toys::Generators::Symbol::CATCH_ON_KEYS.each do |name|
-  Toy.name_generator(name, Toys::Generators::Symbol, false)
+  Toys::MasterToy.instance.name_generator(name, Toys::Generators::Symbol, false)
 end
-Toy.catcher_generator(Symbol, Toys::Generators::Symbol, false)
+Toys::MasterToy.instance.catcher_generator(Symbol, Toys::Generators::Symbol, false)

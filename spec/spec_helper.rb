@@ -8,7 +8,8 @@ RSpec.configure do |config|
   config.order = 'random'
 
 end
-
+#Top level shortcut used as that is the expected use case.
+Toy = Toys::MasterToy.instance
 #Dir["./spec/support/**/*.rb"].each {|f| require f}
 
 

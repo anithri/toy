@@ -16,4 +16,4 @@ module Toys
     end
   end
 end
-Toy.name_generator(:rand_range, Toys::Generators::FixnumFromRange)
+Toys::MasterToy.instance.name_generator(:rand_range, Toys::Generators::FixnumFromRange)

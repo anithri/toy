@@ -4,11 +4,11 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'toys/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "toys"
+  spec.name          = "toy"
   spec.version       = Toys::VERSION
   spec.authors       = ["Scott M Parrish"]
   spec.email         = ["anithri@gmail.com"]
-  spec.description   = "Toys generate containers full of stuff to use when playing in irb"
+  spec.description   = "Toy generate containers full of stuff to use when playing in irb"
   spec.summary       = ""
   spec.homepage      = "http://github.com/anithri/toys"
   spec.license       = "MIT"

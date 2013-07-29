@@ -35,5 +35,5 @@ module Toys
     end
   end
 end
-Toy.register_container(:value,Toys::Containers::Value.new)
+Toys::MasterToy.instance.register_container(:value,Toys::Containers::Value.new)
 

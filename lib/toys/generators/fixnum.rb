@@ -40,5 +40,4 @@ module Toys
     end
   end
 end
-Toy.name_generator(:fixnum, Toys::Generators::Fixnum, false)
-Toy.catcher_generator(Fixnum, Toys::Generators::Fixnum, false)
+

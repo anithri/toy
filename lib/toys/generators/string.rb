@@ -54,5 +54,5 @@ module Toys
     end
   end
 end
-Toy.name_generator(:string, Toys::Generators::String, false)
-Toy.catcher_generator(String, Toys::Generators::String, false)
+Toys::MasterToy.instance.name_generator(:string, Toys::Generators::String, false)
+Toys::MasterToy.instance.catcher_generator(String, Toys::Generators::String, false)

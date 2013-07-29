@@ -4,8 +4,10 @@ module Toys
 
       # creates a new instance of class. see kick method to understand model and generation
       # @param [String] model string to base the random generation off of, defaults to DEFAULT_MODEL
-      def initialize(model)
+      # @param [Hash] opts hash to contain options, Derived classes may or may not use
+      def initialize(model, opts = {})
         @model = model || DEFAULT_MODEL
+        @opts = opts
       end
 
       # @abstract Subclass and override {#kick} to implement
@@ -27,6 +29,10 @@ module Toys
       # @return [true]
       def toy_generator?
         true
+      end
+
+      def self.auto_discover
+        []
       end
 
       protected

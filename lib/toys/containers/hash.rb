@@ -44,4 +44,4 @@ module Toys
     end
   end
 end
-Toy.register_container(:hash,Toys::Containers::Hash.new)
+Toys::MasterToy.instance.register_container(:hash,Toys::Containers::Hash.new)
